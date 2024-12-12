@@ -239,8 +239,9 @@ Publish the website in the given URL.
 
 ## OUTPUT:
 
-![alt text](<Screenshot (60).png>) 
 ![alt text](<Screenshot (59).png>)
+![alt text](<Screenshot (60).png>) 
+
 
 
 ## RESULT:
