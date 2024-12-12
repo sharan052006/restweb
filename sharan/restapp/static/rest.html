@@ -1,67 +1,203 @@
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant - Frost & Whisk</title>
+    <title>Frost & Whisk</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #e6f7ff;
+        }
+
+        header {
+            background-color: #1667b2;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header img {
+            width: 100px;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            background-color: #06111B;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .banner {
+            background-image: url(DALL·E\ 2024-12-12\ 12.44.54\ -\ Create\ a\ banner\ image\ for\ a\ restaurant\ website\ named\ \'Frost\ &\ Whisk.\'\ The\ banner\ should\ feature\ vibrant\,\ inviting\ food\ imagery\ like\ a\ plate\ of\ pasta\ o.webp);
+            background-size: cover;
+            background-color: #cbdff2;
+            color: rgb(4, 4, 4);
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .banner h1 {
+            font-size: 3rem;
+        }
+
+        .sections {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+
+        .section {
+            background-color: #93bbea;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px;
+            flex: 1;
+            max-width: 300px;
+        }
+
+        .section img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #06111B;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .highlight {
+            color: orange;
+            font-weight: bold;
+        }
+
+        .about-section {
+            background-color: #e6f7ff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu-section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .menu-item {
+            width: 200px;
+            text-align: center;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .menu-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
 
-    <div style="font-size: 40px; text-align: center; background-color: lightblue; padding: 20px;">
-        <h1>Frost & Whisk</h1>
-        <img src="logoooo...jpg" alt="Frost & Whisk Logo" style="width: 100px; height: auto; margin-top: 10px;">
+<header>
+    <h1>Frost & Whisk</h1>
+    <img src="logoooo...jpg" alt="Frost & Whisk Logo">
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+</nav>
+
+<div class="banner">
+    <h1>.</h1>
+    <p>.</p>
+</div>
+
+<section id="about" class="about-section">
+    <h1>Welcome to Frost & Whisk</h1>
+    <h2>30% offer on  weekends</h2>
+    <p>Enjoy a fusion of ice creams and continental desserts. We create amazing desserts that blend ice cream and continental favorites.</p>
+</section>
+
+<section id="home" class="sections">
+    <div class="section">
+        <h2>Our New Menu</h2>
+        <p>Explore our delicious new offerings, freshly made every day.</p>
     </div>
 
-    <nav style="background-color: #06111B; padding: 10px; text-align: center;">
-        <ul style="list-style-type: none; padding: 0; margin: 0;">
-            <li style="display: inline; margin-right: 20px;"><a href="#home" style="text-decoration: none; color: white;">Home</a></li>
-            <li style="display: inline; margin-right: 20px;"><a href="#about" style="text-decoration: none; color: white;">About</a></li>
-            <li style="display: inline; margin-right: 20px;"><a href="#menu" style="text-decoration: none; color: white;">Menu</a></li>
-            <li style="display: inline; margin-right: 20px;"><a href="#contact" style="text-decoration: none; color: white;">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="section">
+        <h2>Book a Table</h2>
+        <p>Reserve your spot now and enjoy an unforgettable dining experience.</p>
+    </div>
 
-    <section id="home" style="padding: 20px; text-align: center;">
-        <h2>Welcome to Frost & Whisk</h2>
-        <p>Enjoy a fusion of ice creams and continental desserts.</p>
-    </section>
+    <div class="section">
+        <h2>Opening Hours</h2>
+        <p>
+            <span class="highlight">Mon-Fri:</span> 2pm - 10pm<br>
+            <span class="highlight">Sat:</span> 2pm - 11pm<br>
+            <span class="highlight">Sun:</span> 2pm - 9pm
+        </p>
+    </div>
+</section>
 
-    <section id="about" style="padding: 20px; text-align: center; background-color: lightblue;">
-        <h2>About Us</h2>
-        <p>We create amazing desserts that blend ice creams and continental favorites.</p>
-    </section>
-
-    <section id="menu" style="padding: 20px; text-align: center;">
-        <h2>Our Menu</h2>
-        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-            <div style="text-align: center;">
-                <img src="sundae.jpg" alt="Ice Cream Sundae" style="width: 150px; height: 150px;">
-                <p>Ice Cream Sundae - $5.99</p>
-            </div>
-            <div style="text-align: center;">
-                <img src="lava.jpg" alt="Chocolate Lava Cake" style="width: 150px; height: 150px;">
-                <p>Chocolate Lava Cake - $7.99</p>
-            </div>
-            <div style="text-align: center;">
-                <img src="fruit.jpeg" alt="Fruit Parfait" style="width: 150px; height: 150px;">
-                <p>Fruit Parfait - $4.99</p>
-            </div>
-            <div style="text-align: center;">
-                <img src="cheese.jpg" alt="Continental Cheesecake" style="width: 150px; height: 150px;">
-                <p>Continental Cheesecake - $6.99</p>
-            </div>
+<section id="menu" class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+        <div class="menu-item">
+            <img src="sundae.jpg" alt="Ice Cream Sundae">
+            <h3>Ice Cream Sundae</h3>
+            <p>Rs.250</p>
         </div>
-    </section>
+        <div class="menu-item">
+            <img src="lava.jpg" alt="Chocolate Lava Cake">
+            <h3>Chocolate Lava Cake</h3>
+            <p>Rs.120</p>
+            
+        </div>
+        <div class="menu-item">
+            <img src="fruit.jpeg" alt="Fruit Parfait">
+            <h3>Fruit Parfait</h3>
+            <p>Rs.350</p>
+        </div>
+        <div class="menu-item">
+            <img src="cheese.jpg" alt="Continental Cheesecake">
+            <h3>Continental Cheesecake</h3>
+            <p>Rs.150</p>
+        </div>
+    </div>
+</section>
 
-    <section id="contact" style="padding: 20px; text-align: center; background-color: #06111B; color: white;">
-        <h2>Contact Us</h2>
-        <p>Have questions or want to book a table? Get in touch with us!</p>
-        <form action="#" style="text-align: center;">
-            <input type="text" placeholder="Your Name" style="padding: 5px; margin: 5px;"><br>
-            <input type="email" placeholder="Your Email" style="padding: 5px; margin: 5px;"><br>
-            <textarea placeholder="Your Message" rows="4" style="padding: 5px; margin: 5px;"></textarea><br>
-            <button type="submit" style="padding: 10px 20px; background-color: #33cc33; color: white; border: none; cursor: pointer;">Send Message</button>
-        </form>
-    </section>
+<footer>
+    <p>website developed by sharan I</p>
+</footer>
 
 </body>
 </html>
