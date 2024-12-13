@@ -29,7 +29,6 @@ Publish the website in the given URL.
 
 ## PROGRAM:
 ```
-
 <html>
 <head>
     <title>Frost & Whisk</title>
@@ -40,6 +39,7 @@ Publish the website in the given URL.
             padding: 0;
             line-height: 1.6;
             background-color: #e6f7ff;
+            scroll-behavior: smooth;
         }
 
         header {
@@ -74,12 +74,13 @@ Publish the website in the given URL.
         }
 
         .banner {
-            background-image: url(DALL·E\ 2024-12-12\ 12.44.54\ -\ Create\ a\ banner\ image\ for\ a\ restaurant\ website\ named\ \'Frost\ &\ Whisk.\'\ The\ banner\ should\ feature\ vibrant\,\ inviting\ food\ imagery\ like\ a\ plate\ of\ pasta\ o.webp);
+            background-image: url(image.png);
             background-size: cover;
-            background-color: #cbdff2;
+            background-position: center;
+            background-repeat: no-repeat;
             color: rgb(4, 4, 4);
             text-align: center;
-            padding: 50px 20px;
+            padding: 125px 20px;
         }
 
         .banner h1 {
@@ -112,7 +113,6 @@ Publish the website in the given URL.
             background-color: #06111B;
             color: white;
             text-align: center;
-            padding: 10px 0;
         }
 
         .highlight {
@@ -151,6 +151,32 @@ Publish the website in the given URL.
             width: 100%;
             border-radius: 5px;
         }
+
+        .administration-section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .administration-members {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .administration-member {
+            width: 200px;
+            text-align: center;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .administration-member img {
+            width: 100%;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -165,21 +191,20 @@ Publish the website in the given URL.
         <li><a href="#home">Home</a></li>
         <li><a href="#menu">Menu</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#administration">Administration</a></li>
     </ul>
 </nav>
 
-<div class="banner">
-    <h1>.</h1>
+<div id="home" class="banner">
     <p>.</p>
 </div>
 
 <section id="about" class="about-section">
-    <h1>Welcome to Frost & Whisk</h1>
-    <h2>30% offer on  weekends</h2>
-    <p>Enjoy a fusion of ice creams and continental desserts. We create amazing desserts that blend ice cream and continental favorites.</p>
+    <h1>About Us</h1>
+    <h3>Welcome to Frost and Whisk, where we blend the creamy delight of ice creams with the elegance of continental desserts. Indulge in our innovative creations and timeless favorites, crafted to satisfy every sweet craving. Discover dessert like never before!</h3>
 </section>
 
-<section id="home" class="sections">
+<section class="sections">
     <div class="section">
         <h2>Our New Menu</h2>
         <p>Explore our delicious new offerings, freshly made every day.</p>
@@ -212,7 +237,6 @@ Publish the website in the given URL.
             <img src="lava.jpg" alt="Chocolate Lava Cake">
             <h3>Chocolate Lava Cake</h3>
             <p>Rs.120</p>
-            
         </div>
         <div class="menu-item">
             <img src="fruit.jpeg" alt="Fruit Parfait">
@@ -227,20 +251,48 @@ Publish the website in the given URL.
     </div>
 </section>
 
+<section id="administration" class="administration-section">
+    <h2>Administration</h2>
+    <div class="administration-members">
+        <div class="administration-member">
+            <img src="monishhhhhhhhh.jpg" alt="MD">
+            <h3>MONISH I</h3>
+            <h3>MD</h3>
+        </div>
+        <div class="administration-member">
+            <img src="sharannnnnnnnnnnnnnnnnnnnnnnnnnnnnn.jpg" alt="CEO">
+            <h3>SHARAN I</h3>
+            <h3>CEO</h3>
+        </div>
+        <div class="administration-member">
+            <img src="shiyammmmmmmm.jpg" alt="MANAGER">
+            <h3>SHIYAM</h3>
+            <h3>MANAGER</h3>
+        </div>
+        <div class="administration-member">
+            <img src="prajan.jpg" alt="ASSISTANT-MANAGER">
+            <h3>PRAJAN</h3>
+            <h3>ASSISTANT MANAGER</h3>
+        </div>
+    </div>
+</section>
+
 <footer>
-    <p>website developed by sharan I</p>
+    <p>Website developed by Sharan I 24010956</p>
 </footer>
 
 </body>
 </html>
+
  
 
 ```
 
 ## OUTPUT:
 
-![alt text](<Screenshot (61).png>) 
-![alt text](<Screenshot (62).png>) 
+![alt text](<Screenshot (63).png>)
+![alt text](<Screenshot (64).png>)
+![alt text](<Screenshot (65).png>)  
 
 
 
